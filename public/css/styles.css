@@ -20,7 +20,6 @@ body {
   color: #888888;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
-  /* background-color: #f1f1f1; */
   padding: 16px 0;
 }
 
@@ -69,6 +68,10 @@ input{
 
 img{
   margin-left: 8px;
+}
+
+#about-app{
+  margin-top: 13px;
 }
 
 button{
