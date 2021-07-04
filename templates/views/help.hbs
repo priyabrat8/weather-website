@@ -1,0 +1,34 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="/img/weather.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="main-contain">
+      {{>header}}
+      <h3>{{helpText}}</h3>
+      <h4>Q-How to find the temperature?</h4>
+      <p>
+        Ans-Search the name of the city you are from.it will show you the
+        temperature of the area and area details to configure whether this is
+        the location you want to found or not.
+      </p>
+      <h4>Q-In which format it shows the temperature?</h4>
+      <p>
+        Ans-Farenheit
+      </p>
+      <h4>Q-What can i do if it don't show me the temperature of the location i
+        search for?</h4>
+      <p>
+        Ans-Make sure that you wrote the city name with no mistake,If it still
+        don't show your entered location add some more data like zip code or
+        state name.
+      </p>
+    </div>
+    {{>footer}}
+  </body>
+</html>
